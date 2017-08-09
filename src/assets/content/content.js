@@ -146,9 +146,7 @@ const composers = {
     wiki: "https://en.wikipedia.org/wiki/Francesco_Cavalli",
   },
 }
-const resume_bio = "As a lifelong musician, and lover of maths and language, Reid Delahunt is pursuing web development and coding work with a set of generous skills that crossover
-lines of critical thinking. Along with a reputation for professional discipline, organizational detail, multi- lingual expertise and a friendly demeanor, Reid has
-the potential to succeed and become an asset to any company that values job performance and  uency in programming languages.";
+const resume_bio = "As a lifelong musician, and lover of maths and language, Reid Delahunt is pursuing web development and coding work with a set of generous skills that crossover lines of critical thinking. Along with a reputation for professional discipline, organizational detail, multi- lingual expertise and a friendly demeanor, Reid has the potential to succeed and become an asset to any company that values job performance and  uency in programming languages.";
 
 const content = {
   github_repos: {
@@ -372,7 +370,7 @@ const content = {
           opera_wiki: "https://en.wikipedia.org/wiki/Un_giorno_di_regno",
           reviews: [],
         },
-      }
+      },
       {
         title: "Carmen",
         title_translation: "",
@@ -633,7 +631,7 @@ const content = {
         link: "http://smvsf.org/",
       },
       {
-        name; "The Church of the Transfiguration",
+        name: "The Church of the Transfiguration",
         role: "Section Leader (counter-tenor)",
         location: "New York, NY",
         director: "Claudia Dumschat",
@@ -720,7 +718,7 @@ const content = {
       soft: [
         "friendly",
         "problem solving",
-        "teamwork-oriented mindset"
+        "teamwork-oriented mindset",
         "organization",
         "time management",
         "public speaking",
@@ -904,3 +902,5 @@ const content = {
     location: "SF Bay Area, CA",
   },
 };
+
+module.exports = content;
