@@ -147,20 +147,9 @@ const composers = {
   },
 }
 const resume_bio = "As a lifelong musician, and lover of maths and language, Reid Delahunt is pursuing web development and coding work with a set of generous skills that crossover lines of critical thinking. Along with a reputation for professional discipline, organizational detail, multi- lingual expertise and a friendly demeanor, Reid has the potential to succeed and become an asset to any company that values job performance and  uency in programming languages.";
+const music_bio = "Reid has performed as an operatic musician for the past decade. He has sung with a plethora of houses, including Opera San Jose and Pocket Opera, SF.";
 
 const content = {
-  github_repos: {
-    img: "must_get_later",
-    home: "https://github.com/reidpd",
-    intunenation: "https://github.com/reidpd/InTuneNation",
-    cheeSwhiz: "https://github.com/reidpd/CheeSwhiz",
-    findThatTrail: "https://github.com/reidpd/findThatTrail",
-  },
-  projects_deployed: {
-    intunenation: "https://intunenation.herokuapp.com/",
-    cheeSwhiz_docs: "http://cheeswhiz.herokuapp.com/api-docs/",
-    findThatTrail: "https://find-that-trail.herokuapp.com/html/index.html",
-  },
   social_media: {
     linkedin: "https://www.linkedin.com/in/reidpierredelahunt",
     facebook: "https://www.facebook.com/reid.pierre.delahunt",
@@ -286,7 +275,7 @@ const content = {
     },
   ],
   music_career: {
-    music_bio: "Reid has performed as an operatic musician for the past decade. He has sung with a plethora of houses, including Opera San Jose and Pocket Opera, SF.",
+    music_bio,
     operas: [
       /* model: {
         title: "",
@@ -715,6 +704,38 @@ const content = {
   },
   tech_career: {
     resume_bio,
+    projects: [
+      /* model
+      {
+        name,
+        github_repo,
+        deployed,
+        comments,
+        image
+      },
+      */
+      {
+        name: "InTuneNation",
+        github_repo: "https://github.com/reidpd/InTuneNation",
+        deployed: "https://intunenation.herokuapp.com/",
+        comments: "",
+        image: null,
+      },
+      {
+        name: "CheeSwhiz",
+        github_repo: "https://github.com/reidpd/CheeSwhiz",
+        deployed: "http://cheeswhiz.herokuapp.com/api-docs/",
+        comments: "",
+        image: null,
+      },
+      {
+        name: "findThatTrail",
+        github_repo: "https://github.com/reidpd/findThatTrail",
+        deployed: "https://find-that-trail.herokuapp.com/html/index.html",
+        comments: "",
+        image: null,
+      },
+    ]
     skills: {
       soft: [
         "friendly",

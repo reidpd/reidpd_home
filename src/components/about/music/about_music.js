@@ -19,6 +19,7 @@ class Music extends Component {
       <div className="about-music-container">
         <div className="links">
           <Link to="/about/music/productions">Past Productions</Link>
+          <Link to="/about/music/peeps&places">Peoples & Places</Link>
           <Link to="/about/music/media">Watch/Listen</Link>
         </div>
         <div>
@@ -26,6 +27,7 @@ class Music extends Component {
         </div>
         <Route path="/about/music/productions" component={Productions} />
         {/* <Route path="/about/music/media" component={MediaPage} /> */}
+        {/* <Route path="/about/music/peeps&places" component={PeopleAndPlaces} /> */}
       </div>
     )
   }
