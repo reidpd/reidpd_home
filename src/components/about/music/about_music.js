@@ -4,6 +4,7 @@ import {
   Link
 } from "react-router-dom";
 import Description from '../description_comp';
+import Productions from "./productions";
 import content from "../../../assets/content/content.js";
 import "../../../App.css";
 
@@ -23,7 +24,7 @@ class Music extends Component {
         <div>
           <Description title="Musician" description={this.musicbio} />
         </div>
-        {/* <Route path="/about/music/productions" component={Productions} /> */}
+        <Route path="/about/music/productions" component={Productions} />
         {/* <Route path="/about/music/media" component={MediaPage} /> */}
       </div>
     )

@@ -7,7 +7,7 @@ const companies = {
     link: "",
   },
   */
-  operaSanJose: {
+  osj: {
     name: "Opera San Jose",
     abbreviation: "OSJ",
     location: "San Jose, CA",
