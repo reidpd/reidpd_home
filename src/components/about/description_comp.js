@@ -2,10 +2,10 @@ import React, { Component } from "react";
 import "../../App.css";
 
 class Description extends Component {
-  constructor(title, description) {
-    super();
-    this.title = title;
-    this.description = description;
+  constructor(props) {
+    super(props);
+    this.title = props.title;
+    this.description = props.description;
   }
   render() {
     return (
