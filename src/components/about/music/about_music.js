@@ -19,8 +19,8 @@ class Music extends Component {
       <div className="about-music-container">
         <div className="links">
           <Link to="/about/music/productions">Past Productions</Link>
-          <Link to="/about/music/peeps&places">Peoples & Places</Link>
-          <Link to="/about/music/media">Watch/Listen</Link>
+          {/* <Link to="/about/music/peeps&places">Peoples & Places</Link> */}
+          {/* <Link to="/about/music/media">Watch/Listen</Link> */}
         </div>
         <div>
           <Description title="Musician" description={this.musicbio} />

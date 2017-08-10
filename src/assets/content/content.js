@@ -146,7 +146,7 @@ const composers = {
     wiki: "https://en.wikipedia.org/wiki/Francesco_Cavalli",
   },
 }
-const resume_bio = "As a lifelong musician, and lover of maths and language, Reid Delahunt is pursuing web development and coding work with a set of generous skills that crossover lines of critical thinking. Along with a reputation for professional discipline, organizational detail, multi- lingual expertise and a friendly demeanor, Reid has the potential to succeed and become an asset to any company that values job performance and  uency in programming languages.";
+const resume_bio = "As a lifelong musician, and lover of maths and language, Reid Delahunt is pursuing web development and coding work with a set of generous skills that crossover lines of critical thinking. Along with a reputation for professional discipline, organizational detail, multi-lingual expertise and a friendly demeanor, Reid has the potential to succeed and become an asset to any company that values job performance and fluency in programming languages.";
 const music_bio = "Reid has performed as an operatic musician for the past decade. He has sung with a plethora of houses, including Opera San Jose and Pocket Opera, SF.";
 
 const content = {
@@ -707,11 +707,12 @@ const content = {
     projects: [
       /* model
       {
-        name,
-        github_repo,
-        deployed,
-        comments,
-        image
+        name: "",
+        github_repo: "",
+        deployed: "",
+        comments: "",
+        image: "",
+        tech_used: ["",etc]
       },
       */
       {
@@ -720,6 +721,7 @@ const content = {
         deployed: "https://intunenation.herokuapp.com/",
         comments: "",
         image: null,
+        tech_used: [],
       },
       {
         name: "CheeSwhiz",
@@ -727,6 +729,7 @@ const content = {
         deployed: "http://cheeswhiz.herokuapp.com/api-docs/",
         comments: "",
         image: null,
+        tech_used: [],
       },
       {
         name: "findThatTrail",
@@ -734,8 +737,9 @@ const content = {
         deployed: "https://find-that-trail.herokuapp.com/html/index.html",
         comments: "",
         image: null,
+        tech_used: [],
       },
-    ]
+    ],
     skills: {
       soft: [
         "friendly",
