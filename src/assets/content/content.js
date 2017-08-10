@@ -286,6 +286,7 @@ const content = {
     },
   ],
   music_career: {
+    music_bio: "Reid has performed as an operatic musician for the past decade. He has sung with a plethora of houses, including Opera San Jose and Pocket Opera, SF.",
     operas: [
       /* model: {
         title: "",
