@@ -150,14 +150,32 @@ const resume_bio = "As a lifelong musician, and lover of maths and language, Rei
 const music_bio = "Reid has performed as an operatic musician for the past decade. He has sung with a plethora of houses, including Opera San Jose and Pocket Opera, SF.";
 
 const content = {
-  social_media: {
-    linkedin: "https://www.linkedin.com/in/reidpierredelahunt",
-    facebook: "https://www.facebook.com/reid.pierre.delahunt",
-    duolingo: "https://www.duolingo.com/reidpierre",
-    treehouse: "https://teamtreehouse.com/reiddelahunt",
-    codewars: "https://www.codewars.com/users/reidpd",
-    twitter: "https://twitter.com/ReidDelahunt",
-  },
+  social_media: [
+    {
+      title: "LinkedIn Profile",
+      link: "https://www.linkedin.com/in/reidpierredelahunt",
+    },
+    {
+      title: "Facebook Profile",
+      link: "https://www.facebook.com/reid.pierre.delahunt",
+    },
+    {
+      title: "DuoLingo Stats",
+      link: "https://www.duolingo.com/reidpierre",
+    },
+    {
+      title: "Treehouse Profile",
+      link: "https://teamtreehouse.com/reiddelahunt",
+    },
+    {
+      title: "CodeWars",
+      link: "https://www.codewars.com/users/reidpd",
+    },
+    {
+      title: "Twitter",
+      link: "https://twitter.com/ReidDelahunt",
+    },
+  ],
   training: [
     {
       name: "Galvanize Web Development Immersive",
