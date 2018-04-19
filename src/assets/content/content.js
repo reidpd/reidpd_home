@@ -172,6 +172,10 @@ const content = {
       link: "https://www.codewars.com/users/reidpd",
     },
     {
+      title: "CodeFights",
+      link: "https://codefights.com/profile/reid_d",
+    },
+    {
       title: "Twitter",
       link: "https://twitter.com/ReidDelahunt",
     },
