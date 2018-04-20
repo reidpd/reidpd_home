@@ -7,7 +7,7 @@ class Project extends Component {
     this.name = props.data.name;
     this.repo = props.data.github_repo;
     this.deployed = props.data.deployed;
-    // this.comments = props.data.comments;
+    this.comments = props.data.comments;
     // this.image = props.data.image;
     // this.tech = props.data.tech_used;
   }
@@ -17,6 +17,7 @@ class Project extends Component {
       <div className="project-container">
         <h4>{this.name}</h4>
         <p><a href={this.repo}>Github Repo</a>, <a href={this.deployed}>Deployed Version</a></p>
+        <p>{this.comments}</p>
         <br></br>
       </div>
     )

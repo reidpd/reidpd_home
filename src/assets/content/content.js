@@ -70,6 +70,11 @@ const composers = {
     full: "",
     wiki: "",
   },*/
+  wagner: {
+    first: "Richard",
+    last: "Wagner",
+    wiki: "https://en.wikipedia.org/wiki/Richard_Wagner",
+  },
   donizetti: {
     first: "Gaetano",
     last: "Donizetti",
@@ -313,6 +318,34 @@ const content = {
           reviews: [],
         },
       },*/
+      {
+        title: "La belle Hélène",
+        title_translation: "The beautiful Hellen",
+        composer: composers.offenbach,
+        role: "Ajax II",
+        company: companies.pocketOpera,
+        language: "English",
+        years_performed: [2018],
+        images: [],
+        links: {
+          opera_wiki: "https://en.wikipedia.org/wiki/La_belle_H%C3%A9l%C3%A8ne",
+          reviews: [],
+        },
+      },
+      {
+        title: "Der fliegende Holländer",
+        title_translation: "The Flying Dutchman",
+        composer: composers.wagner,
+        role: "Ensemble",
+        company: companies.osj,
+        language: "German",
+        years_performed: [2018],
+        images: [],
+        links: {
+          opera_wiki: "https://en.wikipedia.org/wiki/The_Flying_Dutchman_(opera)",
+          reviews: [],
+        },
+      },
       {
         title: "Lucia di Lammermoor",
         title_translation: "",
@@ -738,10 +771,17 @@ const content = {
       },
       */
       {
+        name: "Mezzo-Radio",
+        github_repo: "https://github.com/reidpd/mezzo-radio",
+        deployed: "https://mezzo-radio.herokuapp.com/",
+        comments: "A web app where the user can simulate playing LP vinyl records on their computer using Spotify's collection of music.",
+        image: null,
+        tech_used: [],
+      },{
         name: "InTuneNation",
         github_repo: "https://github.com/reidpd/InTuneNation",
         deployed: "https://intunenation.herokuapp.com/",
-        comments: "",
+        comments: "Currently under construction, add '/interface' to the end of the URL to see the main interface. This app can be used, when properly functional, to give the user objective feedback about their pitch accuracy when attempting custom musical exercises.",
         image: null,
         tech_used: [],
       },
@@ -749,7 +789,7 @@ const content = {
         name: "CheeSwhiz",
         github_repo: "https://github.com/reidpd/CheeSwhiz",
         deployed: "http://cheeswhiz.herokuapp.com/api-docs/",
-        comments: "",
+        comments: "An API that can be used by any developer to add cheese information to their website.",
         image: null,
         tech_used: [],
       },
@@ -757,7 +797,7 @@ const content = {
         name: "findThatTrail",
         github_repo: "https://github.com/reidpd/findThatTrail",
         deployed: "https://find-that-trail.herokuapp.com/html/index.html",
-        comments: "",
+        comments: "A simple web app that utilizes Google Maps in conjunction with TrailAPI to give the user pinpoints on a map showing where the nearest trailheads are.",
         image: null,
         tech_used: [],
       },
