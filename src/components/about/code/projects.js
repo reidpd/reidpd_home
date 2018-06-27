@@ -16,7 +16,10 @@ class Project extends Component {
     return (
       <div className="project-container">
         <h4>{this.name}</h4>
-        <p><a href={this.repo}>Github Repo</a>, <a href={this.deployed}>Deployed Version</a></p>
+        <p>
+          <a href={this.repo}>Github Repo</a>,
+          <a href={this.deployed}>Deployed Version</a>
+        </p>
         <p>{this.comments}</p>
         <br></br>
       </div>

@@ -318,6 +318,21 @@ const content = {
           reviews: [],
         },
       },*/
+
+      {
+        title: "Lucrezia Borgia",
+        title_translation: "",
+        composer: composers.donizetti,
+        role: "Petruccio",
+        company: companies.pocketOpera,
+        language: "English",
+        years_performed: [2018],
+        images: [],
+        links: {
+          opera_wiki: "https://en.wikipedia.org/wiki/Lucrezia_Borgia_(opera)",
+          reviews: [],
+        },
+      },
       {
         title: "La belle Hélène",
         title_translation: "The beautiful Hellen",
@@ -771,6 +786,13 @@ const content = {
       },
       */
       {
+        name: "CodeFights",
+        github_repo: "",
+        deployed: "",
+        comments: "",
+        image: "",
+        tech_used: ["",etc]
+      },{
         name: "Mezzo-Radio",
         github_repo: "https://github.com/reidpd/mezzo-radio",
         deployed: "https://mezzo-radio.herokuapp.com/",
