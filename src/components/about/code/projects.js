@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import content from "../../../assets/content/content.js";
+import '../../../App.css';
 
 class Project extends Component {
   constructor(props) {
@@ -27,6 +28,22 @@ class Project extends Component {
   }
 }
 
+class ProjectGithubButton extends Component {
+  constructor(props) {
+    super(props);
+    this.name = props.data.name;
+    this.repo = props.data.github_repo;
+  }
+
+  render() {
+    return (
+      <button class="repo-button">
+        <a href={this.repo}>{this.name} on GitHub</a>
+      </button>
+    )
+  }
+}
+
 class Projects extends Component {
   constructor(props) {
     super(props);
@@ -37,7 +54,10 @@ class Projects extends Component {
     return (
       <div className="projects-container">
         <h3>Reid's Projects</h3>
-          {this.projects.map(project_obj => <Project data={project_obj} /> )}
+          {/* {this.projects.map(project_obj => <Project data={project_obj} /> )} */}
+        <ul class="no-bullets-list">
+          {this.projects.map(project_obj => <li><ProjectGithubButton data={project_obj} /></li>)}
+        </ul>
       </div>
     )
   }

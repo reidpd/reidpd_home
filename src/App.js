@@ -5,6 +5,7 @@ import {
   // Link,
 } from 'react-router-dom'
 import './App.css';
+import Main from "./pages/main";
 import Header from "./components/init/header";
 import About from "./components/about";
 import Contact from "./components/contact";
@@ -16,11 +17,12 @@ class App extends Component {
       // <initSetup />
       <BrowserRouter>
         <div className="App">
-          <Route path="/" component={Header} />
+          <Route path="/" component={Main} />
+          {/* <Route path="/" component={Header} /> */}
           {/* <NavBar /> */}
-          <Route exact path="/" component={Headshot} />
-          <Route path="/about" component={About} />
-          <Route path="/contact" component={Contact} />
+          {/* <Route exact path="/" component={Headshot} /> */}
+          {/* <Route path="/about" component={About} /> */}
+          {/* <Route path="/contact" component={Contact} /> */}
           {/* <Route path="/tech" component={TechPage} /> */}
         </div>
       </BrowserRouter>

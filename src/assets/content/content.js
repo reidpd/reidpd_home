@@ -791,7 +791,7 @@ const content = {
         deployed: "",
         comments: "",
         image: "",
-        tech_used: ["",etc]
+        tech_used: [""]
       },{
         name: "Mezzo-Radio",
         github_repo: "https://github.com/reidpd/mezzo-radio",

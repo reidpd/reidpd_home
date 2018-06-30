@@ -36,3 +36,26 @@
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
 }
+
+#header {
+  background-image:
+}
+
+ul{
+  list-style-type: none;
+}
+
+a{
+  text-decoration: none;
+  color: hsl(240,100%,0%);
+}
+
+#small-bio-box {
+  margin: auto;
+  display: block;
+  max-width: 80%;
+}
+
+.repo-button {
+  margin: 50px 0px;
+}
