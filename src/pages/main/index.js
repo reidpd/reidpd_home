@@ -12,7 +12,7 @@ class Main extends Component {
   render() {
     return (
       <div>
-        <div id="header">
+        <div id="header" style={{height:window.innerHeight}}>
           <div id="name-box">
             <h2 id="name">Reid Delahunt</h2>
             <h5 id="job-titles">CODER AND MUSICIAN</h5>

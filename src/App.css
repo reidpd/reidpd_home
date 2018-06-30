@@ -1,3 +1,9 @@
+h2 {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
 .App {
   text-align: center;
 }
@@ -10,8 +16,8 @@
 
 .App-header {
   background-color: #000;
-  height: 150px;
-  padding: 20px;
+  /* height: 150px; */
+  /* padding: 20px; */
   color: white;
 }
 
@@ -38,7 +44,11 @@
 }
 
 #header {
-  background-image:
+  background-image: url("./assets/images/wave.png");
+  margin-top: 0px;
+  /* margin: auto; */
+  /* display: block; */
+  color: white;
 }
 
 ul{
@@ -48,6 +58,11 @@ ul{
 a{
   text-decoration: none;
   color: hsl(240,100%,0%);
+}
+
+#name {
+  padding-top: 0px;
+  bottom: 10px;
 }
 
 #small-bio-box {
