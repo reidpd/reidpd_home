@@ -1,3 +1,5 @@
+const wave = require('../images/wave.png');
+
 const companies = {
   /* model
   key: {
@@ -1011,6 +1013,9 @@ const content = {
     email: "reidpierredelahunt@gmail.com",
     location: "SF Bay Area, CA",
   },
+  images: {
+    wave,
+  }
 };
 
 module.exports = content;

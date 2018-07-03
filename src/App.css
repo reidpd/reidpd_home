@@ -44,11 +44,17 @@ h2 {
 }
 
 #header {
-  background-image: url("./assets/images/wave.png");
+  /* background-image: url("./assets/images/wave.png"); */
+  position: relative;
+  text-align: center;
   margin-top: 0px;
   /* margin: auto; */
   /* display: block; */
   color: white;
+}
+
+#wave-image {
+  width: 100%;
 }
 
 ul{
@@ -60,15 +66,17 @@ a{
   color: hsl(240,100%,0%);
 }
 
-#name {
-  padding-top: 0px;
-  bottom: 10px;
+#name-box {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 #small-bio-box {
-  margin: auto;
   display: block;
-  max-width: 80%;
+  margin: auto;
+  width: 80%;
 }
 
 .repo-button {
