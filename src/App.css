@@ -51,14 +51,17 @@ h2 {
   /* margin: auto; */
   /* display: block; */
   color: white;
+  font-family: ForoSans-Regular;
 }
 
 #wave-image {
   width: 100%;
 }
 
-ul{
+ul li{
   list-style-type: none;
+  position: relative;
+  right: 20px;
 }
 
 a{
@@ -77,6 +80,7 @@ a{
   display: block;
   margin: auto;
   width: 80%;
+  font-family: ForoSans-Italic;
 }
 
 .repo-button {
