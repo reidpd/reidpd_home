@@ -11,18 +11,18 @@ import '../../App.css';
 class Main extends Component {
   render() {
     return (
-      <div>
+      <div id="main-body">
         <div id="header">
           <img id="wave-image" src={content.images.wave} alt="wave"/>
           <div id="name-box">
-            <h2 id="name">Reid Delahunt</h2>
+            <div id="name">Reid Delahunt</div>
             <h5 id="job-titles">CODER AND MUSICIAN</h5>
           </div>
         </div>
         <div id="content-container">
           <div id="contact-box">
-            <p id="phone-number">415-343-2772</p>
             <a id="email" href="mailto:reidpierredelahunt@gmail.com">reidpierredelahunt@gmail.com</a>
+            <p id="phone-number">415-343-2772</p>
           </div>
           <div id="small-bio-box">
             <p>As a lifelong musician, and lover of maths and language, Reid Delahunt is pursuing web development and coding work with a set of generous skills that crossover lines of critical thinking. He has a reputation for professional discipline, organizational detail, multi-lingual expertise and a friendly demeanor. Currently seeking an entry level position as a web developer on a serious project team while continuing to dig into process and practice.</p>

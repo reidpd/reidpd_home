@@ -1,4 +1,4 @@
-const wave = require('../images/wave.png');
+const wave = require('../images/80_percent_wave.png');
 
 const companies = {
   /* model
