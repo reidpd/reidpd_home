@@ -789,7 +789,7 @@ const content = {
       */
       {
         name: "CodeFights",
-        github_repo: "",
+        github_repo: "https://github.com/reidpd/codefights",
         deployed: "",
         comments: "",
         image: "",
